@@ -1,0 +1,26 @@
+# Ignore generated UML outputs
+output.puml
+output.xml
+*.puml
+*.xml
+
+# Ignore models directory
+models/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
