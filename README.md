@@ -16,12 +16,12 @@ analyzing SRS documents and generating UML diagrams.
 
 The system aims to:
 
-1.  Automatically preprocess SRS documents.\
-2.  Perform syntactic and semantic analysis.\
-3.  Identify UML-relevant components.\
-4.  Classify relationships (association, aggregation, inheritance).\
-5.  Generate UML diagrams in standard formats (PlantUML, XML).\
-6.  Provide confidence score for each generated component.\
+1.  Automatically preprocess SRS documents.
+2.  Perform syntactic and semantic analysis.
+3.  Identify UML-relevant components.
+4.  Classify relationships (association, aggregation, inheritance).
+5.  Generate UML diagrams in standard formats (PlantUML, XML).
+6.  Provide confidence score for each generated component.
 7.  Allow human-in-the-loop corrections.
 
 ------------------------------------------------------------------------
@@ -46,12 +46,12 @@ The system aims to:
 
 # Features
 
--   Automatic SRS preprocessing\
--   Syntactic & semantic analysis using spaCy\
--   Class detection from noun phrases\
--   Relationship classification\
--   Confidence scoring system\
--   Human-in-the-loop correction mechanism\
+-   Automatic SRS preprocessing
+-   Syntactic & semantic analysis using spaCy
+-   Class detection from noun phrases
+-   Relationship classification
+-   Confidence scoring system
+-   Human-in-the-loop correction mechanism
 -   Export to PlantUML (.puml) and XML (.xml)
 
 ------------------------------------------------------------------------
@@ -69,7 +69,7 @@ The system aims to:
 
 # Project Structure
 
-    uml-gen/
+    UML-Gen/
     │
     ├── main.py
     ├── requirements.txt
@@ -83,8 +83,8 @@ The system aims to:
 # Installation Guide
 
 ``` bash
-git clone https://github.com/yourusername/ai-uml-generator.git
-cd ai-uml-generator
+git clone https://github.com/Itshardtofindagoodname/UML-Gen.git
+cd UML-Gen
 python -m venv venv
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
